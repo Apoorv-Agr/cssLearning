@@ -94,13 +94,13 @@ h2 {
 .links-container {
   color: #14bd49;
   font-size: 20px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 a:link {
   color: #003047;
 }
-a:visited {
+/* a:visited {
   color: grey;
 }
 a:focus {
@@ -108,6 +108,22 @@ a:focus {
 }
 a:hover {
   color: rgb(201, 80, 0);
+} */
+a.example:link {
+  color: #c02d28;
+}
+a.example:visited {
+  color: blue;
+}
+a.example:focus {
+  border: 3px dotted black;
+}
+a.example:hover {
+  color: purple;
+  font-weight: bold;
+}
+a.example:active {
+  color: #7c8e88;
 }
 .acronym-cls {
   font-weight: bolder;
