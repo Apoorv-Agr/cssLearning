@@ -1,6 +1,6 @@
 body {
-  background-color: #7d7d7d;
-  color: #d0f2f2;
+  background-color: #fbf37c;
+  color: #58555a;
   height: 100%;
   font-family: Verdana, Arial, Geneva, Arial Black;
   font-weight: lighter;
@@ -13,9 +13,12 @@ body {
 
 h1,
 h2 {
-  color: #d0f2f2;
-  border-bottom: 2px solid #0b0d0c;
+  color: #14bd49;
+  /* border-bottom: 2px solid #0b0d0c; */
   /* border-radius: 5px; */
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 900;
 }
 .font-18 {
   font-size: 18px;
@@ -26,12 +29,12 @@ h2 {
 .underline {
   text-decoration: underline;
 }
-.white {
-  color: #fefeff;
+.grey {
+  color: #58555a;
 }
 
 .blue {
-  color: #a5e0fd;
+  color: #5f9595;
 }
 .line-height-cls {
   line-height: 1.5em;
@@ -39,20 +42,21 @@ h2 {
 
 .para-cls {
   background-color: #e5e4d7;
-  color: #40281f;
+  /* color: #40281f; */
   padding: 10px;
   border-radius: 2px;
   border-color: #0b0d0c;
   border-style: solid;
-  background-image: url("../images/clouds-featured.png");
+  background-image: url("../images/clouds-img.jpg");
 }
 .para-cls-4 {
   background-color: #e5e4d7;
-  color: #734814;
+  /* color: #734814; */
   padding: 10px;
-  border-radius: 2px;
-  border-color: #0b0d0c;
-  border-style: solid;
+  border-radius: 10px;
+  border-color: #8cd9ff;
+  border-style: ridge;
+  border-width: thick;
   margin: 20px;
   margin-left: 500px;
 }
@@ -77,4 +81,12 @@ h2 {
   border-radius: 2px;
   background-color: #a5e0fd;
   padding: 3px;
+}
+.background-color-white {
+  background-color: #f7f3f0;
+}
+.container-1,
+.container-2,
+.container-3 {
+  color: rgb(131, 21, 21);
 }
