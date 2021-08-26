@@ -90,3 +90,27 @@ h2 {
 .container-3 {
   color: rgb(131, 21, 21);
 }
+
+.links-container {
+  color: #14bd49;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:link {
+  color: #003047;
+}
+a:visited {
+  color: grey;
+}
+a:focus {
+  color: rgb(148, 4, 177);
+}
+a:hover {
+  color: rgb(201, 80, 0);
+}
+.acronym-cls {
+  font-weight: bolder;
+  font-size: larger;
+  color: #0b0d0c;
+}
