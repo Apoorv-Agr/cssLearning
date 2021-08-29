@@ -225,3 +225,16 @@ a.example:active {
   height: 100px;
   overflow-y: scroll;
 }
+.upnishadsImgCls {
+  height: 250px;
+  width: 200px;
+  float: left;
+  margin: 10px 10px 1000px 10px;
+  border: 2px solid black;
+}
+.upnishadsContainer {
+  background-color: grey !important;
+}
+.colorWhite {
+  color: #fefefe;
+}
