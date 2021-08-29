@@ -111,6 +111,7 @@ a:hover {
 } */
 a.example:link {
   color: #c02d28;
+  /* cursor: url("../images/NewCursor.ico"), pointer; */
 }
 a.example:visited {
   color: blue;
@@ -121,6 +122,7 @@ a.example:focus {
 a.example:hover {
   color: purple;
   font-weight: bold;
+  cursor: url("../images/NewCursor.ico"), pointer;
 }
 a.example:active {
   color: #7c8e88;
@@ -129,4 +131,16 @@ a.example:active {
   font-weight: bolder;
   font-size: larger;
   color: #0b0d0c;
+}
+.custom-cursor-cls {
+  cursor: url("../images/mailIcon.ico"), pointer;
+}
+
+.margin-10-cls {
+  margin: 10px;
+}
+
+.align-center-cls {
+  width: max-content;
+  margin: 10px auto 0px auto;
 }
