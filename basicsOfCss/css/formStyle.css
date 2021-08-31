@@ -1,0 +1,24 @@
+h2 {
+  text-align: center;
+}
+.basicForm {
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+  background-color: grey;
+  border: 2px solid black;
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.row label {
+  display: table-cell;
+  padding: 5px;
+  text-align: right;
+}
+
+.row input {
+  display: table-cell;
+  padding: 5px;
+}
