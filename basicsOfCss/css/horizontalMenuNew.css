@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.navBar {
+  background-color: rgb(196, 193, 193);
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 15px;
+  overflow: hidden;
+  font-weight: bold;
+}
+.navBar .navBarUl {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navBar .navBarUl li {
+  display: inline;
+  vertical-align: middle;
+  float: left;
+}
+.navBar .navBarUl li a {
+  padding: 12px 18px;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.navBar .navBarUl li .active {
+  background-color: aqua;
+}
+.navBar .navBarUl li a:hover:not(.active) {
+  background-color: grey;
+}
+.floatRight {
+  float: right !important;
+}
