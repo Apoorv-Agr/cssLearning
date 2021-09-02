@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.navBar {
+  height: 630px;
+  max-height: 630px;
+  background-color: rgb(182, 175, 175);
+  overflow-y: auto;
+  width: 25%;
+  position: fixed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.navBar .navBarUl {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  /* text-align: center; */
+}
+.navBar .navBarUl li a {
+  text-decoration: none;
+  color: black;
+
+  line-height: 30px;
+  height: 30px;
+  display: block;
+  padding: 10px 40px;
+}
+
+.navBar .navBarUl .active {
+  background-color: aqua;
+}
+
+.navBar .navBarUl a:hover:not(.active) {
+  background-color: grey;
+  font-weight: bolder;
+}
