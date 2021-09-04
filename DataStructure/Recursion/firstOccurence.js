@@ -1,4 +1,4 @@
-const arr = [2, 3, 6, 9, 8, 3, 2, 6, 2, 4];
+const arr = [2, 3, 6, 9, 8, 3, 2, 6, 2, 4, 9];
 
 // Optimized solution 
 
@@ -8,8 +8,8 @@ const findFirstIdx = (arrTemp, idx, searchEl) => {
     if (arrTemp[idx] === searchEl) {
         return idx;
     } else {
-        let idxInSubArr = findFirstIdx(arrTemp, idx + 1, searchEl);
-        return idxInSubArr;
+        let fIdxInSubArr = findFirstIdx(arrTemp, idx + 1, searchEl);
+        return fIdxInSubArr;
     }
 }
 
@@ -20,11 +20,11 @@ const findFirstIdx = (arrTemp, idx, searchEl) => {
 const findFirstIdxCpy = (arrTemp, idx, searchEl) => {
     if (arrTemp.length === 0) { return -1 };
     if (idx === arrTemp.length) { return -1 };
-    let idxInSubArr = findFirstIdx(arrTemp, idx + 1, searchEl);
-    if (arrTemp[idxInSubArr] === arrTemp[idx]) {
+    let fIdxInSubArr = findFirstIdx(arrTemp, idx + 1, searchEl);
+    if (searchEl === arrTemp[idx]) {
         return idx;
     } else {
-        return idxInSubArr;
+        return fIdxInSubArr;
     }
 }
 
