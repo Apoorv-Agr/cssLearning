@@ -16,7 +16,6 @@ const getSubsequences = (str = "") => {
     for (let i = 0; i < myArray.length; i++) {
         finalArr.push(`${""}${myArray[i]}`);
     }
-
     return finalArr;
 }
 // OutPut Should be :- Output : a, b, c, ab, bc, ac, abc
