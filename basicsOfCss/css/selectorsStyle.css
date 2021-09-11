@@ -1,0 +1,76 @@
+/* Element Selectors */
+body {
+  height: 100%;
+  margin: 0;
+}
+/* Element Selectors */
+div {
+  height: 10%;
+  width: 20%;
+  border: 2px solid black;
+  background-color: rgb(206, 206, 206);
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  /* display: inline-block; */
+}
+/* Combine or Multiple Selectors */
+.div9,
+.div11 {
+  height: 150px;
+  overflow: auto;
+}
+/* Id Selector */
+#div1 {
+  color: blue;
+}
+/* Descendant Selectors */
+.div5 h3 {
+  color: green;
+}
+/* Child Selectors */
+.div6 > p {
+  color: rgb(224, 132, 10);
+}
+/* Sibling Selectors :- Select one sibling (bhai) */
+/* .div7 h3 + p {
+    color: rgb(167, 8, 127);
+} */
+/* Sibling Selectors Select all sibling (bhai) */
+.div7 h3 ~ p {
+  color: rgb(167, 8, 127);
+}
+
+/* Attribute Selectors */
+.div8 h3[lang] {
+  color: rgb(103, 8, 167);
+}
+/* .div9 p:nth-child(3) {
+  color: rosybrown;
+} */
+
+.div9 p:nth-child(odd) {
+  color: rosybrown;
+}
+/* not Selectors */
+.div10 .active {
+  color: slategray;
+  font-weight: bold;
+}
+.div10 p:not(.active) {
+  color: rgb(230, 144, 64);
+  font-weight: bold;
+}
+.div11 p {
+  color: rgb(0, 102, 255);
+}
+/* Fist Selector :- First Line, First Letter */
+.div11 p::first-letter {
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+}
+.div11 p::first-line {
+  color: rgba(184, 54, 3, 0.692);
+  font-weight: bold;
+}
