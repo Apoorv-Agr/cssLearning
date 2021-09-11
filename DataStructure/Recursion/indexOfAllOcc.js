@@ -13,4 +13,4 @@ const allOccurrenceFn = (arr = [], idx, search, occCount) => {
     }
 }
 
-console.log('allOccurrenceFn : ', allOccurrenceFn(myArr, 0, 333, 0));
+console.log('allOccurrenceFn : ', allOccurrenceFn(myArr, 0, 3, 0));
