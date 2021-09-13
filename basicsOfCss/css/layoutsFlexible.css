@@ -55,6 +55,7 @@ body {
 .navBar ul li a:hover {
   background-color: #ade8f4;
   color: #023e8a;
+  font-size: 105%;
 }
 
 .sideRightBar {
@@ -111,10 +112,13 @@ body {
 .footer ul li a:hover {
   background-color: #ade8f4;
   color: #023e8a;
+  font-size: 105%;
 }
-
-
-
+.footer ul li a.active {
+  background-color: #ade8f4;
+  color: #023e8a;
+  font-size: 105%;
+}
 
 /* Heading Section */
 h1 {
