@@ -10,9 +10,11 @@ const getSubsequences = (str = "") => {
     const myArray = getSubsequences(subStr);
     const finalArr = [];
     finalArr.push(`${firstChar}`);
+    //  Yes 
     for (let i = 0; i < myArray.length; i++) {
         finalArr.push(`${firstChar}${myArray[i]}`);
     }
+    // No
     for (let i = 0; i < myArray.length; i++) {
         finalArr.push(`${""}${myArray[i]}`);
     }
