@@ -70,10 +70,7 @@
   
 */
 
- // 5secs , 1secs
-
-
-
+// 5secs , 1secs
 
 
 /*  
@@ -96,9 +93,15 @@ In case the sum is called like sum(2)(3)(8)(5)() then answer returned should be 
 // var sum1 = sum(2);
 // console.log(sum1(3));
 
-/* 
-Question 9) Vertically and horizontally align a div inside a div ?
- */
+/* Question 9) Vertically and horizontally align a div inside a div ? */
 // margin : 0px auto;
 
 /* Question 10) What is event loop in Js ?*/
+
+/* Question 11) Diff b/w call, apply and bind */
+
+/* Question 12) What is event capturing and event bubbling ? */
+
+/* Question 13) What is stop-propagation stop-immediate-propagation ? */
+
+/* Question 14) What is debouncing ? */
