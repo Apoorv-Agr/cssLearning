@@ -85,6 +85,8 @@ body {
 
 /* Media Query ========================================== */
 /* Apply this css when page with becomes less than 600px in width */
+/* @media only screen (max-width: 650px) { */
+/* @media (max-width: 450px) and (max-width: 650px) { */
 @media (max-width: 650px) {
   .sidebar {
     display: none;
