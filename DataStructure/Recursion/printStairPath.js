@@ -1,4 +1,4 @@
-
+// This was done by me
 const printStairsPath = (n, path = "") => {
     if (n < 0) {
         return;
