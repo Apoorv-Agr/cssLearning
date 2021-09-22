@@ -1,0 +1,31 @@
+:root {
+  background-color: black;
+  margin: 0px;
+}
+
+@keyframes basicBorderColorAnimation {
+  5% {
+    border-color: deeppink;
+  }
+  /* 20% {
+    border-color: purple;
+  } */
+  25% {
+    border-color: darkgreen;
+  }
+  75% {
+    border-color: maroon;
+  }
+  100% {
+    border-color: darkblue;
+  }
+}
+
+p {
+  width: 400px;
+  height: 200px;
+  border: 20px solid yellowgreen;
+  background: rgb(33, 43, 43);
+  animation-name: basicBorderColorAnimation;
+  animation-duration: 30s;
+}
