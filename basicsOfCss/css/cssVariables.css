@@ -1,0 +1,17 @@
+:root {
+  margin: 0px;
+  background-color: rgb(70, 66, 66);
+  color: white;
+  --myColorText-color: yellow; /* // creating a css variable */
+  --myFontSize-16: 20px;
+}
+
+.para1 {
+  /* color: lightgreen; */
+  color: var(--myColorText-color); /* // consuming the css variable */
+  font-size: var(--myFontSize-16);
+}
+
+.para2 {
+  color: lightskyblue;
+}
