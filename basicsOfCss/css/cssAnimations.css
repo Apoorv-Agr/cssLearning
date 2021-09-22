@@ -27,5 +27,7 @@ p {
   border: 20px solid yellowgreen;
   background: rgb(33, 43, 43);
   animation-name: basicBorderColorAnimation;
-  animation-duration: 30s;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
