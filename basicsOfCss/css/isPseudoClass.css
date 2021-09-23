@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+.body {
+  background: black;
+  margin: 0px;
+}
+
+.flexBoxContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.box1 {
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid rgb(39, 152, 197);
+  color: white;
+}
+.box2 {
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid darkgreen;
+  color: white;
+}
+
+.box3 {
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid yellow;
+  color: white;
+}
+.box4 {
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid red;
+  color: white;
+}
+/* is pseudo class selectors */
+:is(div) :is(h1) {
+  color: darkorange;
+}
