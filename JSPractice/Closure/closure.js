@@ -4,8 +4,6 @@ console.log("in closure");
     What is closure :- A function bind/bundled together with it's lexical environment
     Lexical Meaning :- Where exactly the function is physically present in the code. 
     So Closure means that the function will have access to it own memory + it's parent memory reference
-    
-    
  */
 
 function outerFn() {
