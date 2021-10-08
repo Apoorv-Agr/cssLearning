@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+  font-size: 1.3em;
+  letter-spacing: 0.3em;
+  word-spacing: 0.4em;
+}
+
+section {
+  background-color: rosybrown;
+}
+
+h1 {
+  color: darkslategray;
+  /* font-family: "Birthstone", cursive; */
+  font-family: "Goudy Bookletter 1911", serif;
+  /* font-size: 90%; */
+}
