@@ -1,0 +1,65 @@
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: normal; */
+  /* Same as above all three style properties combined*/
+  font: normal 1.1em Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+}
+
+h1 {
+  /* color: darkmagenta; */
+  /* color : rosybrown */
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.box1 {
+  background-color: #333333;
+  color: #fefefefe;
+
+  border-right: 5px solid rosybrown;
+  border-left: 5px solid rosybrown;
+  border-bottom: 5px solid rosybrown;
+  border-top: 5px solid rosybrown;
+
+  border-right-width: 5px;
+  border-right-style: solid;
+
+  /* Same as above */
+  border: 10px solid rosybrown;
+
+  padding-top: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+  padding-left: 35px;
+  /* 
+    10px ---> top, 15px ---> right, 
+    20px ---> bottom, 25px ---> left
+   */
+  padding: 10px 15px 20px 25px;
+  /* 
+    30px ---> top and bottom
+    50px ---> left and right
+  */
+  padding: 30px 50px;
+  /* Same rules apply for margin as well */
+  margin: 40px 0px;
+}
+
+.box1 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.3em;
+    word-spacing: 1em;
+    font-weight: bolder;
+    font-size: 1.4em;
+    font-style: italic;
+}
+

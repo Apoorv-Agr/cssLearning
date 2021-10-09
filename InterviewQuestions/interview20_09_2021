@@ -1,0 +1,107 @@
+/* 
+    Question 1) What are hooks ? 
+        Question 1.1) How hooks are rendered ?
+        Question 1.2) How to access prevProps in use-effect hooks ?
+    Question 2) Component Life Cycle methods and their order of execution in React 
+    Question 3) Error Boundaries in React and Their Methods name plus implementation example ?
+*/
+
+// const [count,setCount] = useState(0);
+
+// useEffect(()=>{
+  
+// },[count]);
+
+
+
+/* Question 4) React Lazy Syntax*/
+
+/* Ans :-  
+    React.lazy takes a function that must call a dynamic import(). This must return a Promise which resolves to a module with a default export containing a React component.
+
+    The lazy component should then be rendered inside a Suspense component, which allows us to show some fallback content (such as a loading indicator) while we’re waiting for the lazy component to load.
+
+     Correct Syntax is :- const OtherComponent = React.lazy(() => import('./OtherComponent'));
+    // <Suspense fallback={<div>Loading...</div>} >
+    //     <OtherComponent />
+    // </Suspense>
+ */
+
+
+/* Question 5) keys in React Js */
+
+// <li>
+//   Apoorv
+// </li>
+// <li key="2">
+//   ABC
+// </li>
+
+/* Question 6) What is context API in React ? */
+//           A -> state
+//           B,C,D
+//             C1,C2,
+       
+
+
+// PostComponent (Parent) -> (// Paginated API to get the list of posts)
+//   [{id : ''},{id : }]
+//   -> User Name and It Profile Image -> Owner of the post Data
+//   -> Post Details 
+//     -> Post Title 
+//     -> Image / Text
+//   -> React(Emojis) -> Count of Reactions 
+//   -> Comments
+
+
+
+
+/* 
+ Question 7) What will be the output of this code snippet?
+  
+  if(true){
+    console.log(v); // undefined
+    console.log(L); // S
+    var v= 1;
+    let L = 2
+  }
+  console.log(v); 
+  console.log(L);  
+  
+*/
+
+// 5secs , 1secs
+
+
+/*  
+  Function Currying 
+Question 8) Write a function sum which will return the sum of all the parameters passed in to it like sum(2)(5)....(n)()
+
+In case the sum is called like sum(2)(3)(6)() then answer returned should be 11
+In case the sum is called like sum(2)(3)(8)(5)() then answer returned should be 18
+*/
+
+// function sum(a) {
+  
+//   function abc(b) {
+//     console.log(arguments);
+//     return a+b;
+//   }
+//   return abc;
+// }
+
+// var sum1 = sum(2);
+// console.log(sum1(3));
+
+/* Question 9) Vertically and horizontally align a div inside a div ? */
+// margin : 0px auto;
+
+/* Question 10) What is event loop in Js ?*/
+
+/* Question 11) Diff b/w call, apply and bind */
+
+/* Question 12) What is event capturing and event bubbling ? */
+
+/* Question 13) What is stop-propagation stop-immediate-propagation ? */
+
+/* Question 14) What is debouncing ? */
