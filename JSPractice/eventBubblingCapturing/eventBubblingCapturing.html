@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling Capturing</title>
+    <style>
+        body {
+            font-size: 1.5em;
+            line-height: 1.2em;
+            background-color: rgb(46, 45, 45);
+            color: white;
+        }
+
+        .divBox {
+            min-height: 100px;
+            min-width: 100px;
+            padding: 25px;
+            border: 4px solid rgb(8, 43, 240);
+            margin: 10px;
+        }
+
+        .container {
+            min-height: 50px;
+            min-width: 25px;
+            padding: 25px;
+            border: 4px solid rgb(4, 138, 64);
+            margin: 10px;
+        }
+
+        .btn {
+            color: rgb(255, 255, 255);
+            min-width: 25px;
+            font-size: 1.2em;
+            line-height: 0.75em;
+            padding: 10px;
+            margin: 5px;
+            background-color: orange;
+            border-radius: 10px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+
+        <div id="grandParent" class="divBox">
+            Grand Parent
+            <div id="parent" class="divBox">
+                Parent
+                <div id="child" class="divBox">
+                    Child
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <button class="btn">Click me</button>
+        </div>
+        <h2>Event Bubbling and Capturing aka Trickling :-</h2>
+        <ul>
+            <li>
+                <p>The capturing phase <b>happens before the bubbling</b> phase</p>
+            </li>
+            <li>
+                <p>
+                    Event bubbling and capturing are two ways of event <b>propagation</b> in <b>DOM tree</b></p>
+                <p>
+            </li>
+        </ul>
+
+        <h3>Event capturing :- </h3>
+        <ul>
+            <li>
+                <p>
+                    Event capturing is an event phase that happens before the bubbling phase. In this process, the event
+                    goes
+                    down the DOM tree from the window to the target element
+                </p>
+            </li>
+        </ul>
+        <h3>Event bubbling :- </h3>
+        <ul>
+            <li>
+                <p>
+                    Event bubbling is an event phase that happens after the capturing phase. In this process, the event
+                    mover
+                    up the DOM tree from the from target element to the window.
+                </p>
+            </li>
+        </ul>
+        <h3>stopPropagation() method :- </h3>
+        <ul>
+            <li>
+                <p>
+                    The <b>stopPropagation method</b> is available in an event parameter object. When called in an event
+                    handler, it stops the <b>bubbling process.</b>
+                </p>
+            </li>
+        </ul>
+        <h3>stopImmediatePropagation()</h3>
+        <ul>
+            <li>
+                <p>
+                    The <b>stopImmediatePropagation() method</b> is available in an event parameter object. When called
+                    in an event handler, it stops <b>other event handlers on the element from being executed and
+                        prevents the event from bubbling up.</b>
+                </p>
+            </li>
+        </ul>
+    </div>
+
+
+    <script defer src="./eventBubblingCapturing.js" type="text/javascript"></script>
+</body>
+
+</html>
