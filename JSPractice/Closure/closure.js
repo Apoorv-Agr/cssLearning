@@ -35,3 +35,24 @@ function timer() {
 }
 
 timer();
+
+
+function sum(a) {
+    return function y(b) {
+        console.log(a + b);
+    }
+}
+
+sum(1)(2);
+sum(5)(-1)
+
+
+let x = 1;
+
+function func() {
+  console.log(x); // ?
+
+  let x = 2;
+}
+
+func();
