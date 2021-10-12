@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(104, 103, 103);
+}
+div + p {
+  color: #fefefe;
+  font-size: 1.3em;
+  word-spacing: 0.1em;
+}
+h2 + p {
+  color: #e65454;
+  font-size: 1.4em;
+  word-spacing: 0.1em;
+}
