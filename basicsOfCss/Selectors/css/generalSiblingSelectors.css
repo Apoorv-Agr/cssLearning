@@ -1,13 +1,13 @@
 body {
   background-color: rgb(175, 174, 174);
 }
-.mainDiv + p {
+h2 ~ p {
   color: #fefefe;
   font-size: 1.3em;
   word-spacing: 0.1em;
 }
-.headings + p {
+/* .headings + p {
   color: #b85d5d;
   font-size: 1.4em;
   word-spacing: 0.1em;
-}
+} */
