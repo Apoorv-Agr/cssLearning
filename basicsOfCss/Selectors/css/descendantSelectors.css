@@ -1,0 +1,8 @@
+body {
+  background-color: darkgray;
+}
+.mainDiv p {
+  color: #fefefe;
+  font-size: 1.3em;
+  word-spacing: 0.1em;
+}

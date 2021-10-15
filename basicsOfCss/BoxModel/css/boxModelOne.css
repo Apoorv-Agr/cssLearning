@@ -1,0 +1,85 @@
+/* html,
+body {
+  height: 100%;
+} */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+}
+
+/* main {
+  height: 100%;
+} */
+
+#product-overview {
+  background: #ff1b68;
+  height: 528px;
+  width: 100%;
+  padding: 10px;
+  /* border: 5px solid black;
+  margin: 10px; */
+}
+
+.section-title {
+  color: #2ddf5c;
+}
+
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+  background-color: #2ddf5c;
+  padding: 8px 16px;
+  width: 100%;
+}
+
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header > .main-nav {
+  display: inline-block;
+  text-align: right;
+  width: calc(100% - 75px);
+  vertical-align: middle;
+}
+
+.main-header > .main-nav > .main-nav__items {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0px 16px;
+}
+.main-header__brand {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0e4f1f;
+  text-decoration: none;
+}
+
+.main-header > .main-nav > .main-nav__items .main-nav__item a {
+  color: #0e4f1f;
+  text-decoration: none;
+}
+
+.main-header > .main-nav > .main-nav__items .main-nav__item a:hover {
+  color: #fefefe;
+}
+
+.main-header > .main-nav > .main-nav__items .main-nav__item a:active {
+  color: #fefefe;
+}
