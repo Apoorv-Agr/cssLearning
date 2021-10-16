@@ -12,4 +12,4 @@ const getSubSet = (inputArr = [], target, outputStr = "", sumSoFar = 0, idx = 0)
 
 }
 
-getSubSet([10, 20, 30, 40, 50, 60], 60, "", 0, 0)
+getSubSet([2,3,6,7], 7, "", 0, 0);
