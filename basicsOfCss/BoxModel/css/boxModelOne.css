@@ -25,12 +25,14 @@ body {
   color: white;
   font-family: "Anton", sans-serif;
 }
-
+#plans div {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
 /* h1 {
     font-family: sans-serif;
 } */
-
-
 
 .section-title + p::first-letter {
   color: red;
@@ -81,7 +83,6 @@ body {
   color: #fefefe;
 }
 
-
 #key-features {
   background: #ff1b68;
   padding: 16px;
@@ -118,6 +119,5 @@ body {
   border-radius: 50%;
   border: 2.5px solid #424242;
 }
-
 
 /* #19b84c */
