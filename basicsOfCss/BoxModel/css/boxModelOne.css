@@ -12,14 +12,18 @@ body {
   background-image: url("../images/freedom.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left 10% bottom 60%;
+  background-position: left 10% bottom 20%;
+  background-origin: border-box;
+  /* background-origin: content-box; */
+  background-clip: border-box;
   height: 528px;
   width: 100%;
-  padding: 20px;
-  margin-top: 50px;
+  padding: 10px;
+  margin-top: 43px;
   position: relative;
   /* border: 5px solid black;
   margin: 10px; */
+  border: 5px red dashed;
 }
 
 .section-title {
