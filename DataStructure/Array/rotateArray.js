@@ -26,3 +26,9 @@ const rotateArr = (arr = [], k) => {
 const myArr = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i'];
 
 console.log(rotateArr(myArr, -1));
+
+/*
+    18LPA
+    2 LPA -> Stability Bonus 
+    
+*/
