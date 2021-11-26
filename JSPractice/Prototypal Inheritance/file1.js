@@ -1,0 +1,1 @@
+console.log('Prototypal Inheritance file1.js')
