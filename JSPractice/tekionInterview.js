@@ -8,10 +8,10 @@ Person.prototype.getName = function () {
     return this.name;
 }
 
-Person.prototype.getDetails = function () {
+/* Person.prototype.getDetails = function () {
     return `${this.name}, ${this.gender} is ${this.age}. yrs `;
 }
-
+ */
 var p1 = new Person('Ram', 30);
 console.log("p1 : ", p1);
 
@@ -33,7 +33,7 @@ const p3 = createInstance(Person, 'Rohan', 22, 'M');
 
 
 console.log("p3 : ", p3);
-console.log(p3.getDetails());
+/* console.log(p3.getDetails()); */
 
 
 
